@@ -21,13 +21,13 @@ function loadEmojioneArea() {
         style.rel = 'stylesheet';
         style.crossOrigin = 'anonymous';
         style.integrity = 'sha256-LKawN9UgfpZuYSE2HiCxxDxDgLOVDx2R4ogilBI52oc=';
-        style.href = 'https://cdn.jsdelivr.net/npm/emojionearea@3.4.2/dist/emojionearea.min.css';
+        style.href = 'https://oss.hamzone.cn/static/emojionearea%403.4.2/emojionearea.min.css';
         document.head.appendChild(style);
 
         const script = document.createElement('script');
         script.crossOrigin = 'anonymous';
         script.integrity = 'sha256-ImIFrmJd7ymGlVw2MbtI96BNPW4NfcKqM3d1Go665Ig=';
-        script.src = 'https://cdn.jsdelivr.net/npm/emojionearea@3.4.2/dist/emojionearea.min.js';
+        script.src = 'https://oss.hamzone.cn/static/emojionearea%403.4.2/emojionearea.min.js';
         script.onload = resolve;
         document.body.appendChild(script);
     });
