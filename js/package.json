@@ -8,6 +8,6 @@
     },
     "scripts": {
         "dev": "webpack --mode development --watch",
-        "build": "webpack --mode production"
+        "build": "export NODE_OPTIONS=--openssl-legacy-provider && webpack --mode production"
     }
 }

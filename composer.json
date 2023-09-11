@@ -1,5 +1,5 @@
 {
-    "name": "hamzone/flarum-ext-emojionearea",
+    "name": "hamcq/flarum-ext-emojionearea",
     "description": "Add EmojioneArea emoji picker to Flarum",
     "type": "flarum-extension",
     "license": "MIT",
@@ -11,8 +11,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/HamZone/flarum-ext-emojionearea/issues",
-        "source": "https://github.com/HamZone/flarum-ext-emojionearea"
+        "issues": "https://github.com/HamCQ/flarum-ext-emojionearea/issues",
+        "source": "https://github.com/HamCQ/flarum-ext-emojionearea"
     },
     "require": {
         "flarum/core": "^1.0"
